@@ -17,7 +17,7 @@ export default function MovieDetail  () {
       console.log(json);
     }
     fetchMovie();
-  }, [])
+  }, [params.id])
 
   return (
     <main>
